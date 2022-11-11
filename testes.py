@@ -27,6 +27,7 @@ from funçoes import invrot3
 from funçoes import invrot4
 from funçoes import invrot5
 from funçoes import espelho
+from funçoes import convert
 
 n = 1
 while (n<4):

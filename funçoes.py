@@ -711,5 +711,9 @@ def espelho (L):
       case '':
          return 'invalid'
 
-
+def convert(self, codigo):
+	lista = []
+	lista [:0] = codigo
+codigo = input("digite o código")
+print (convert(codigo))
 
