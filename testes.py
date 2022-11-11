@@ -45,7 +45,7 @@ while (n<4):
 
 # A ser realizado
 
-L = 'c'
+L = 'a'
 
 
 
