@@ -1,3 +1,5 @@
+from funçoes import convert
+
 list = ["yipenwoftqrlzjabmcxvkhgsud"]
 
 n=0
@@ -10,5 +12,6 @@ while (n<25):
     i += 1
     n += 1
 
-print (list)
+codigo = input("digite o código: ")
+print (convert(codigo))
 

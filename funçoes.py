@@ -714,6 +714,7 @@ def espelho (L):
 def convert(self, codigo):
 	lista = []
 	lista [:0] = codigo
+   
 codigo = input("digite o código")
 print (convert(codigo))
 
