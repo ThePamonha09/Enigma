@@ -12,6 +12,6 @@ while (n<25):
     i += 1
     n += 1
 
-codigo = input("digite")
-print (convert(codigo))
+codigo = input("digite o código")
+print (convert(codigo, codigo))
 
