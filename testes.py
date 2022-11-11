@@ -47,6 +47,9 @@ while (n<4):
 
 L = 'c'
 
+
+
+
 Rescolhido.append(Nrotores[2])
 Nescolhido.append(numeros[2])
 

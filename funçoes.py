@@ -10,7 +10,7 @@ from tabela import rotor4
 from tabela import rotor5
 from tabela import rotores
 from tabela import letras
-from tabela import alph
+
 
 def inversor(inv):
    match inv:
