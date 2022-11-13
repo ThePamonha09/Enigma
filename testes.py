@@ -43,13 +43,9 @@ while (n<4):
     n += 1
     i += 1
 
-
 # A ser realizado
 
-L = 'a'
-
-
-
+L = 'c'
 
 Rescolhido.append(Nrotores[2])
 Nescolhido.append(numeros[2])
@@ -65,8 +61,6 @@ elif Nrotores[2] == rotor4:
 elif Nrotores[2] == rotor5:
     L = rot5(L)
 
-print (L)
-
 Rescolhido[0] = Nrotores[1]
 Nescolhido[0] = numeros[1]
 
@@ -81,7 +75,6 @@ elif Nrotores[1] == rotor4:
 elif Nrotores[1] == rotor5:
     L = rot5(L)
 
-print (L)
 
 Rescolhido[0] = Nrotores[0]
 Nescolhido[0] = numeros[0]
@@ -97,11 +90,7 @@ elif Nrotores[0] == rotor4:
 elif Nrotores[0] == rotor5:
     L = rot5(L)
 
-print (L)
-
 L = espelho(L)
-
-print (L)
 
 x = (Nrotores[0][numeros[0]])
 y = x.rfind(L)
@@ -117,8 +106,6 @@ elif Nrotores[0] == rotor4:
 elif Nrotores[0] == rotor5:
     L = invrot5(y)
 
-print (L)
-
 x = (Nrotores[1][numeros[1]])
 y = x.rfind(L)
 
@@ -132,8 +119,6 @@ elif Nrotores[1] == rotor4:
     L = invrot4(y)
 elif Nrotores[1] == rotor5:
     L = invrot5(y)
-
-print (L)
 
 x = (Nrotores[2][numeros[2]])
 y = x.rfind(L)
